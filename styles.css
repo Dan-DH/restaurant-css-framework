@@ -59,11 +59,18 @@
 /*----Buttons-----*/
 
 .btn {
+    background-color: #830b11!important;
     border: none;
+    box-shadow: none!important;
 }
 
 .btn:hover {
-    background-color: #830b11;
+    background-color: #830b11!important;
+}
+
+.btn:active {
+    background-color: #830b11!important;
+    box-shadow: none!important;
 }
 
 /* -----Card CSS----- */
@@ -93,7 +100,12 @@ b {
     width: 50%;
     margin: auto;
     border-radius: 50%;
-    padding-top: 2px;
+    padding-top: 10px;
+}
+
+.card-body .btn:hover {
+    background-color: #ffc107!important;
+    color: black!important;
 }
 
 /*-----Footer-----*/
