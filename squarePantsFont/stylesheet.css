@@ -10,3 +10,15 @@
     font-style: normal;
 
 }
+
+
+
+
+@font-face {
+    font-family: 'spongebob_font_wideregular';
+    src: url('spongebobfontwideregular-x3nzv-webfont.woff2') format('woff2'),
+         url('spongebobfontwideregular-x3nzv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,13 +1,35 @@
-* {
-/*     margin: 0;
-    padding: 0; */
+/* -----Fonts-----*/
+.fontWide {
+    font-family: 'spongebob_font_wideregular';
+}
+
+.fontCond {
     font-family: 'spongebob_font_condensedRg';
 }
 
-.navDesk {
-    display: none;
+@font-face {
+    font-family: 'spongebob_font_condensedRg';
+    src: url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff2') format('woff2'),
+         url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'spongebob_font_wideregular';
+    src: url('./squarePantsFont/spongebobfontwideregular-x3nzv-webfont.woff2') format('woff2'),
+         url('./squarePantsFont/spongebobfontwideregular-x3nzv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*-----Desktop navBar-----*/
+
+.navLink {
+    font-size: 140%;
+}
+
+/* -----Colors-----*/
 .kRed {
     background-color: #830b11;
 }
@@ -16,24 +38,94 @@
     color: #830b11;
 }
 
-.kkRest {
-    max-width: 100%;
+/*------Restaurant image-----*/
+
+.imgRest {
+    max-width: 100%;;
 }
 
 
-/* .jumbotron {
-    background-image: linear-gradient(#1aa6e4, #44f3d1);
-} */
+/*-----Jumbotron-----*/
 
-/* .jumbotron {
-    background-color: #496668;
-} */
+.jumbotron {
+    padding: 3%;
+}
 
-@font-face {
-    font-family: 'spongebob_font_condensedRg';
-    src: url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff2') format('woff2'),
-         url('./squarePantsFont/spongebobfontcondensedregular-3zzey-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.jumbotron h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/*----Buttons-----*/
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+    background-color: #830b11;
+}
+
+/* -----Card CSS----- */
+.news {
+    margin-top: 5%;
+}
+
+.card {
+    width: 75%;
+    margin: auto;
+    height: 100%;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+b {
+    text-decoration: underline;
+}
+
+.disc {
+    font-size: 0.8rem;
+}
+
+.card > img {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+/*-----Footer-----*/
+
+footer {
+    margin-top: 5%;
+}
+
+/*----Menu hidden on mobile version----*/
+.navDesk {
+    display: none;
+}
+
+/*----Menu displayed on desktop version-----*/
+@media screen and (min-width: 800px) {
+    .navMob {
+        display: none;
+    }
+
+    .navDesk {
+        display: inline;
+    }
+
+/*-----Jumbotron-----*/
+
+.jumbotron {
+    padding: 3%;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+}
 
 }

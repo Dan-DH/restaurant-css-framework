@@ -9,31 +9,72 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
 </head>
-<body>
+
+<body id="top">
     <nav>
-        <div class="container-fluid">
+        <div class="container-fluid py-3 kRed fontWide text-light text-center">
             <div class="row desktop">
-                <div class="col-2 navDesk">Home</div>
-                <div class="col-2 navDesk">Menu</div>
-                <div class="col-2 navDesk">Restaurants</div>
-                <div class="col-2 navDesk">Pictures</div>
-                <div class="col-2 navDesk">Contact</div>
+                <div class="col-2 navDesk"><a href="./index.html" class="btn kRed text-light mt-2 navLink">Home</a></div>
+                <div class="col-2 navDesk"><a href="./menu.html" class="btn kRed text-light mt-2 navLink">Menu</a></div>
+                <div class="col-3 navDesk"><a href="./restaurants.html" class="btn kRed text-light mt-2 navLink">Restaurants</a></div>
+                <div class="col-2 navDesk"><a href="./pictures.html" class="btn kRed text-light mt-2 navLink">Pictures</a></div>
+                <div class="col-2 navDesk"><a href="./contact.html" class="btn kRed text-light mt-2 navLink">Contact</a></div>
             </div>
 
-            <div class="row flex-between py-2 kRed align-items-center mobile">
-                <div class="col-1 ms-2 text-light navMob home">Home</div>
-                <div class="col-1 ms-auto me-2 text-light navMob bars"><i class="fas fa-bars"></i></div>
+            <div class="row justify-content-between mx-2 mobile">
+                <div class="col-1 navMob"><a href="./index.html" class="text-light"><i class="fas fa-home"></i></a></div>
+                <div class="col-1 navMob"><a href="./menu.html" class="text-light"><i class="fas fa-utensils"></i></a></div>
+                <div class="col-1 navMob"><a href="./restaurants.html" class="text-light"><i class="fas fa-map-marked-alt"></i></a></div>
+                <div class="col-1 navMob"><a href="./pictures.html" class="text-light"><i class="fas fa-images"></i></a></div>
+                <div class="col-1 navMob"><a href="./contact.html" class="text-light"><i class="fas fa-envelope-open-text"></i></a></div>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid p-0">
-        <img class="kkRest" src="./assets/krustyKrab.png" alt="The Krusty Krab">
+        <img class="imgRest" src="./assets/krustyKrab.png" alt="The Krusty Krab">
 
-        <div class="jumbotron text-center kRed py-3">
-            <h1 class="text-light">Welcome to <br>THE KRUSTY KRAB</h1>
+        <div class="jumbotron text-center text-light fontWide kRed">
+            <h1>Welcome to</h1>
+            <h1>THE KRUSTY KRAB</h1>
         </div>
     </div>
+
+    <div class="container fontCond">
+        <div class="row">
+            <div class="col-12 col-md-6 news">
+                <div class="card">
+                     <img class="card-img-top" src="./assets/sandy.png" alt="Sandy's burger">
+                     <div class="card-body text-center">
+                        <h5 class="card-title">Burger of the week</h5>
+                        <h5><span class="badge bg-warning text-dark">New!</span></h5>
+                        <p class="card-text mt-3">Try our new Sally Burger!<br><span class="disc">(Disclaimer: it is <b>NOT</b> made out of Sally)</span></p>
+                        <a href="./menu.html" class="btn btn-primary kRed text-light mt-2">Check our menu</a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="col-12 col-md-6 news">
+                <div class="card align-items-between">
+                    <img class="card-img-top" src="./assets/sale3.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-1">Midweek Madness!
+                        <h5><span class="badge bg-danger">Today only!</span></h5>
+                        <p class="card-text mt-3">All-you-can-eat for all-you-can-pay!</p>
+                        <a href="./menu.html" class="btn btn-primary kRed text-light mt-2">Check our menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row py-2 kRed mobile">
+            <div class="col-12 fontWide text-light text-center footMob">
+                <a class="btn btn-primary kRed" href="#top" role="button">Back to top</a>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
