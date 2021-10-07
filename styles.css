@@ -153,6 +153,9 @@ b {
     font-family: 'spongebob_font_condensedRg';
 }
 
+.thumbsUp {
+    background-color: #ffc107;
+}
 .thumbsUp img {
     max-width: 40%;
 }
