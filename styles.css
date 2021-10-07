@@ -23,10 +23,18 @@
     font-style: normal;
 }
 
-/*-----Desktop navBar-----*/
+/*-----navBar-----*/
 
 .navLink {
-    font-size: 140%;
+    font-size: 125%;
+}
+
+.navMob {
+    width: 100%;
+}
+
+.navDesk {
+    display: none;
 }
 
 /* -----Colors-----*/
@@ -56,6 +64,13 @@
     line-height: 2rem;
 }
 
+/*-----Jumbotron pictures page-----*/
+
+.jumbotron  {
+    color: #830b11;
+    border-color: #830b11;
+}
+
 /*----Buttons-----*/
 
 .btn {
@@ -64,9 +79,9 @@
     box-shadow: none!important;
 }
 
-.btn:hover {
+/* .btn:hover {
     background-color: #830b11!important;
-}
+} */
 
 .btn:active {
     background-color: #830b11!important;
@@ -103,7 +118,7 @@ b {
     padding-top: 10px;
 }
 
-.card-body .btn:hover {
+.checkMenu:hover {
     background-color: #ffc107!important;
     color: black!important;
 }
@@ -114,30 +129,46 @@ footer {
     margin-top: 5%;
 }
 
-/*----Menu hidden on mobile version----*/
-.navDesk {
-    display: none;
+
+/*-----carousel-----*/
+
+.slides {
+    max-width: 750px;
+    max-height: 400px;
 }
 
-/*----Menu displayed on desktop version-----*/
+.carousel-inner img {
+    margin: auto;
+
+}
+
+#krabbysel {
+    border-top: 5px solid #830b11;
+    border-bottom: 5px solid #830b11;
+}
+
+/*-----DESKTOP VERSION-----*/
 @media screen and (min-width: 800px) {
+
+/*----navbar-----*/
     .navMob {
         display: none;
     }
 
     .navDesk {
-        display: inline;
+        display: inherit;
+        width: 100%;
     }
 
 /*-----Jumbotron-----*/
 
-.jumbotron {
-    padding: 3%;
-}
+    .jumbotron {
+        padding: 3%;
+    }
 
-.jumbotron h1 {
-    font-size: 3rem;
-    line-height: 5rem;
-}
+    .jumbotron h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
 
 }

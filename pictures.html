@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krusty Krab</title>
+    <script src="https://kit.fontawesome.com/89bc576fb3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+</head>
+
+<body id="top">
+
+    <nav class="navbar navbar-expand p-0">
+        <div class="container-fluid kRed fontWide text-light">
+            <ul class="navbar-nav justify-content-between mx-5 py-3 navDesk">
+                <li class="nav-item"><a href="./index.html" class="nav-link kRed text-light mt-2 navLink">Home</a></li>
+                <li class="nav-item"><a href="./menu.html" class="nav-link kRed text-light mt-2 navLink">Menu</a></li>
+                <li class="nav-item"><a href="./restaurants.html" class="nav-link kRed text-light mt-2 navLink">Restaurants</a></li>
+                <li class="nav-item"><a href="./pictures.html" class="nav-link kRed text-light mt-2 navLink">Pictures</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link kRed text-light mt-2 navLink">Contact</a></li>
+            </ul>
+
+            <ul class="navbar-nav justify-content-between mx-3 py-1 navMob">
+                <li class="nav-item"><a href="./index.html" class="nav-link text-light navLink"><i class="fas fa-home"></i></a></li>
+                <li class="nav-item"><a href="./menu.html" class="nav-link text-light navLink"><i class="fas fa-utensils"></i></a></li>
+                <li class="nav-item"><a href="./restaurants.html" class="nav-link text-light navLink"><i class="fas fa-map-marked-alt"></i></a></li>
+                <li class="nav-item"><a href="./pictures.html" class="nav-link text-light navLink"><i class="fas fa-images"></i></a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link text-light navLink"><i class="fas fa-envelope-open-text"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron my-5 text-center fontWide jumboPic">
+        <h1>Pictures</h1>
+        <h5>Enjoy the slideshow!</h5>
+    </div>
+    
+    <div id="krabbysel" class="carousel carousel-dark slide my-5 kbs" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#krabbysel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#krabbysel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#krabbysel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 slides" src="./assets/carrousel/kk4.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 slides" src="./assets/carrousel/kk3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 slides" src="./assets/carrousel/kk1.png" alt="Fourth slide">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#krabbysel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Back</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#krabbysel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Forward</span>
+        </button>
+    </div>
+
+    
+    <footer>
+        <div class="row py-2 kRed mobile">
+            <div class="col-12 fontWide text-light text-center footMob">
+                <a class="btn btn-primary kRed" href="#top" role="button">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+
+    
+
+</body>
+</html>
