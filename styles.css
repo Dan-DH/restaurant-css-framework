@@ -1,3 +1,5 @@
+/* * { border: 1px solid red; } */
+
 /* -----Fonts-----*/
 .fontWide {
     font-family: 'spongebob_font_wideregular';
@@ -39,36 +41,24 @@
 
 /* -----Colors-----*/
 .kRed {
-    background-color: #830b11;
+    background-color: #830b11!important;
 }
 
 .ktRed {
-    color: #830b11;
+    color: #830b11!important;
 }
 
 /*------Restaurant image-----*/
 
 .imgRest {
-    max-width: 100%;;
+    max-width: 100%;
 }
-
 
 /*-----Jumbotron-----*/
-
-.jumbotron {
-    padding: 3%;
-}
 
 .jumbotron h1 {
     font-size: 1.5rem;
     line-height: 2rem;
-}
-
-/*-----Jumbotron pictures page-----*/
-
-.jumbotron  {
-    color: #830b11;
-    border-color: #830b11;
 }
 
 /*----Buttons-----*/
@@ -79,24 +69,16 @@
     box-shadow: none!important;
 }
 
-/* .btn:hover {
-    background-color: #830b11!important;
-} */
-
 .btn:active {
     background-color: #830b11!important;
     box-shadow: none!important;
 }
 
 /* -----Card CSS----- */
-.news {
-    margin-top: 5%;
-}
 
 .card {
     width: 75%;
     margin: auto;
-    height: 100%;
 }
 
 .card-text {
@@ -123,12 +105,16 @@ b {
     color: black!important;
 }
 
-/*-----Footer-----*/
+/*-----PICTURES-----*/
 
-footer {
-    margin-top: 5%;
+.pictures {
+    background-image: url("./assets/krustyKrab.png");
 }
 
+.jumbotron  {
+    color: #830b11;
+    border-color: #830b11;
+}
 
 /*-----carousel-----*/
 
@@ -137,19 +123,44 @@ footer {
     max-height: 400px;
 }
 
-.carousel-inner img {
-    margin: auto;
-
+.carousel-inner {
+    background-color: transparent;
 }
 
-#krabbysel {
-    border-top: 5px solid #830b11;
-    border-bottom: 5px solid #830b11;
+.carousel-item img {
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/*-----MENU-----*/
+
+.menuDesk, .menuMob {
+    background-color: #ffc107;
+}
+
+.menuDesk {
+    display: none;
+}
+
+.accordion-button {
+    font-family: 'spongebob_font_wideregular';
+    border-color: #830b11!important;
+    box-shadow: none!important;
+}
+
+.accordion-body {
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.thumbsUp img {
+    max-width: 40%;
 }
 
 /*-----DESKTOP VERSION-----*/
 @media screen and (min-width: 800px) {
 
+/*-----INDEX-----*/
 /*----navbar-----*/
     .navMob {
         display: none;
@@ -169,6 +180,20 @@ footer {
     .jumbotron h1 {
         font-size: 3rem;
         line-height: 5rem;
+    }
+
+/*-----MENU-----*/
+
+    .menuDesk {
+        display: inherit;
+    }
+
+    .menuMob, .thumbsUp {
+        display: none;
+    }
+
+    .wText {
+        visibility: hidden;
     }
 
 }
