@@ -227,4 +227,12 @@ b {
         background-color: #830b11!important;
         border-radius: 10px;
     }
+
+    .page-link {
+        background-color: #830b11!important;
+        color: white!important;
+        font-family: 'spongebob_font_condensedRg';
+        border: none;
+    }
+
 }
