@@ -78,6 +78,7 @@
 
 .card {
     width: 75%;
+    height: 100%; /*keeps the cards the same height*/
     margin: auto;
 }
 
@@ -105,15 +106,23 @@ b {
     color: black!important;
 }
 
+.madness {
+    margin-top: 1.5rem;
+}
+
+/* footer {
+    position: fixed;
+    bottom: 0;
+} */
 /*-----PICTURES-----*/
 
 .pictures {
     background-image: url("./assets/krustyKrab.png");
 }
 
-.jumbotron  {
-    color: #830b11;
-    border-color: #830b11;
+.jumboPic {
+    color:#830b11!important;
+    background-color: transparent!important;
 }
 
 /*-----carousel-----*/
@@ -185,6 +194,12 @@ b {
         line-height: 5rem;
     }
 
+/*-----Card-----*/
+
+    .madness {
+        margin-top: 0;
+    }
+
 /*-----MENU-----*/
 
     .menuDesk {
@@ -199,4 +214,17 @@ b {
         visibility: hidden;
     }
 
+/*-----PICTURES-----*/
+
+    .pictures {
+        background-image: url("./assets/krustyKrab.png");
+    }
+
+    .jumboPic {
+        margin: auto;
+        max-width: max-content;
+        color: white!important;
+        background-color: #830b11!important;
+        border-radius: 10px;
+    }
 }
