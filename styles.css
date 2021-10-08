@@ -142,6 +142,20 @@ b {
     margin: auto;
 }
 
+/*-----pagination-----*/
+
+.page-link {
+    background-color: #830b11!important;
+    color: white!important;
+    font-family: 'spongebob_font_condensedRg';
+    border: none;
+}
+
+.pageActive {
+    background-color: #ffc107!important;
+    color: black!important;
+}
+
 /*-----MENU-----*/
 
 .menuDesk, .menuMob {
@@ -214,6 +228,23 @@ b {
         visibility: hidden;
     }
 
+    .burgers, .meals, .sides, .drinks {
+        font-family: 'spongebob_font_condensedRg';
+    }
+    
+    li.active {
+        background-color: #830b11!important;
+        color: white!important;
+        border: none;
+    }
+
+    .list-group-items p {
+        margin: 0;
+        padding: 0%;
+    }
+
+
+
 /*-----PICTURES-----*/
 
     .pictures {
@@ -226,13 +257,6 @@ b {
         color: white!important;
         background-color: #830b11!important;
         border-radius: 10px;
-    }
-
-    .page-link {
-        background-color: #830b11!important;
-        color: white!important;
-        font-family: 'spongebob_font_condensedRg';
-        border: none;
     }
 
 }
