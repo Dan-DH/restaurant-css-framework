@@ -110,10 +110,6 @@ b {
     margin-top: 1.5rem;
 }
 
-/* footer {
-    position: fixed;
-    bottom: 0;
-} */
 /*-----PICTURES-----*/
 
 .pictures {
@@ -156,6 +152,10 @@ b {
     color: black!important;
 }
 
+.pagiDesk {
+    display: none;
+}
+
 /*-----MENU-----*/
 
 .menuDesk, .menuMob {
@@ -170,6 +170,15 @@ b {
     font-family: 'spongebob_font_wideregular';
     border-color: #830b11!important;
     box-shadow: none!important;
+}
+
+.mobMeals {
+    margin-left: auto;
+    background-color: pink!important;
+}
+
+.accordion-button::after, .accordion-button-collapsed::after {
+    display: none;
 }
 
 .accordion-body {
@@ -218,6 +227,7 @@ b {
 
     .menuDesk {
         display: inherit;
+        font-size: large;
     }
 
     .menuMob, .thumbsUp {
@@ -236,14 +246,12 @@ b {
         background-color: #830b11!important;
         color: white!important;
         border: none;
+        border-radius: 10px 10px 0 0!important;
     }
 
-    .list-group-items p {
-        margin: 0;
-        padding: 0%;
+    li.last {
+        border-radius: 0 0 10px 10px!important;
     }
-
-
 
 /*-----PICTURES-----*/
 
@@ -257,6 +265,14 @@ b {
         color: white!important;
         background-color: #830b11!important;
         border-radius: 10px;
+    }
+
+    .pagiDesk {
+        display: inherit;
+    }
+
+    .pagiMob {
+        display: none;
     }
 
 }
