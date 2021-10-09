@@ -76,8 +76,9 @@
 
 /* -----Card CSS----- */
 
-.card {
+.cardInd {
     width: 75%;
+    height: 100%;
     margin: auto;
 }
 
@@ -93,7 +94,7 @@ b {
     font-size: 0.8rem;
 }
 
-.card > img {
+.imgInd {
     width: 50%;
     margin: auto;
     border-radius: 50%;
@@ -153,11 +154,35 @@ b {
     font-family: 'spongebob_font_condensedRg';
 }
 
+.accordion-button:after {
+    visibility: hidden!important;
+}
+
 .thumbsUp {
     background-color: #ffc107;
 }
+
 .thumbsUp img {
     max-width: 40%;
+}
+
+/*-----RESTAURANTS-----*/
+
+.locations {
+    background-color: #ffc107;
+}
+
+.cardRest {
+    width: 20rem;
+    margin: auto;
+    border: 4px solid  #830b11;
+    border-radius: 10px;
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.fa-phone-square {
+    transform: scale(150%);
+    color: #830b11;
 }
 
 /*-----DESKTOP VERSION-----*/
@@ -174,6 +199,10 @@ b {
         width: 100%;
     }
 
+    .navLink:hover {
+        transform: scale(110%);
+        transition: transform 0.5s;
+    }
 /*-----Jumbotron-----*/
 
     .jumbotron {
@@ -198,5 +227,24 @@ b {
     .wText {
         visibility: hidden;
     }
+
+/*-----RESTAURANTS-----*/
+
+.locations {
+    background-color: #ffc107;
+}
+
+.cardRest {
+    width: 40rem;
+    border: 8px solid  #830b11;
+}
+
+.cardRest:hover {
+    transform: scale(105%);
+    transition: transform 1s;
+}
+
+    
+
 
 }

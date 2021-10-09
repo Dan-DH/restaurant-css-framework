@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krusty Krab</title>
+    <script src="https://kit.fontawesome.com/89bc576fb3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="reset.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+</head>
+
+<body id="top">
+
+    <nav class="navbar navbar-expand p-0">
+        <div class="container-fluid kRed fontWide text-light">
+            <ul class="navbar-nav justify-content-between mx-5 py-3 navDesk">
+                <li class="nav-item"><a href="./index.html" class="nav-link kRed text-light navLink">Home</a></li>
+                <li class="nav-item"><a href="./menu.html" class="nav-link kRed text-light navLink">Menu</a></li>
+                <li class="nav-item"><a href="./restaurants.html" class="nav-link kRed text-light navLink">Restaurants</a></li>
+                <li class="nav-item"><a href="./pictures.html" class="nav-link kRed text-light navLink">Pictures</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link kRed text-light navLink">Contact</a></li>
+            </ul>
+
+            <ul class="navbar-nav justify-content-between mx-3 py-1 navMob">
+                <li class="nav-item"><a href="./index.html" class="nav-link text-light navLink"><i class="fas fa-home"></i></a></li>
+                <li class="nav-item"><a href="./menu.html" class="nav-link text-light navLink"><i class="fas fa-utensils"></i></a></li>
+                <li class="nav-item"><a href="./restaurants.html" class="nav-link text-light navLink"><i class="fas fa-map-marked-alt"></i></a></li>
+                <li class="nav-item"><a href="./pictures.html" class="nav-link text-light navLink"><i class="fas fa-images"></i></a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link text-light navLink"><i class="fas fa-envelope-open-text"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron py-4 py-md-4 text-center text-light fontWide kRed">
+        <h1>OUR RESTATURANTS</h1>
+        <h4>Visit us in any of our locations</h4>
+    </div>
+
+    <div class="row m-0 p-0 locations">        
+        <div class="col-12 col-md-6 pt-5">
+            <div class="card cardRest">
+                <img src="assets/krustyKrab.png" class="card-img-top imgKK" alt="The Krusty Krab">
+                <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:250px;margin:auto;">
+                    <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=the+krusty+krab&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <style>#googlemaps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">The Krusty Krab</h5>
+                <p class="card-text">The original. Visit us and enjoy our renowned Krabby Patty &#169<br>Open: Monday to Sunday from 12 to 24<br><i class="fas fa-phone-square"></i> +1 555 55 55</a></p>
+                <a href="https://www.google.com/maps/place/Krusty+krab/@50.5451365,2.1190205,5.17z/data=!4m9!1m2!2m1!1skrusty+krab!3m5!1s0x47da0565f1db52f5:0xe135706ff58fd7fe!8m2!3d52.5705279!4d1.7076167!15sCgtrcnVzdHkga3JhYloNIgtrcnVzdHkga3JhYpIBFGhhbWJ1cmdlcl9yZXN0YXVyYW50" target="_blank" class="btn btn-primary checkMenu">See on Google Maps</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-12 col-md-6 py-5">
+            <div class="card cardRest">
+                <img src="assets/chumBuckket.jpg" class="card-img-top imgKK" alt="The Chum Bucket">
+                <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:250px;margin:auto;">
+                    <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=chum+buckets&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <style>#googlemaps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Chum Bucket</h5>
+                    <p class="card-text">Don't let the name fool you, this place is as Krusty as it gets!<br>Open: Monday to Sunday from 12 to 24<br><i class="fas fa-phone-square"></i> +1 555 55 56</a></p>
+                    <a href="https://www.google.com/maps/place/Chum+Bucket+Limited+S.r.o./@9.647661,-125.6193355,3z/data=!4m8!1m2!2m1!1schum+buckets!3m4!1s0x470bec695cfbc417:0x36cf62c22d373c26!8m2!3d50.1571065!4d14.5198708" target="_blank" class="btn btn-primary checkMenu">See on Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
