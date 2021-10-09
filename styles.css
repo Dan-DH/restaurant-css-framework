@@ -110,6 +110,23 @@ b {
     margin-top: 1.5rem;
 }
 
+/*-----footer-----*/
+
+.footBar {
+    width: 100%;
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.footBar2 {
+    width: 30%;
+}
+
+.fa-twitter-square, .fa-instagram-square, .fa-yelp {
+    transform: scale(150%);
+}
+
+
+
 /*-----PICTURES-----*/
 
 .pictures {
@@ -119,6 +136,11 @@ b {
 .jumboPic {
     color:#830b11!important;
     background-color: transparent!important;
+}
+
+.footerPictures {
+    position: fixed;
+    bottom: 0;
 }
 
 /*-----carousel-----*/
@@ -174,7 +196,6 @@ b {
 
 .mobMeals {
     margin-left: auto;
-    background-color: pink!important;
 }
 
 .accordion-button::after, .accordion-button-collapsed::after {
@@ -219,7 +240,6 @@ b {
 /*-----DESKTOP VERSION-----*/
 @media screen and (min-width: 800px) {
 
-/*-----INDEX-----*/
 /*----navbar-----*/
     .navMob {
         display: none;
@@ -234,6 +254,14 @@ b {
         transform: scale(110%);
         transition: transform 0.5s;
     }
+
+/*-----footer-----*/
+
+    .footBar2 {
+        width: 20%;
+    }
+
+/*-----INDEX-----*/
 /*-----Jumbotron-----*/
 
     .jumbotron {
