@@ -76,6 +76,10 @@
 
 /* -----Card CSS----- */
 
+.indexCardBkg {
+    background-color: #ffc107;
+}
+
 .cardInd {
     width: 75%;
     height: 100%; /*keeps the cards the same height*/
@@ -255,11 +259,6 @@ b {
         width: 100%;
     }
 
-    .navLink:hover {
-        transform: scale(110%);
-        transition: transform 0.5s;
-    }
-
 /*-----footer-----*/
 
     .footerText {
@@ -305,10 +304,6 @@ b {
 
 /*-----RESTAURANTS-----*/
 
-    .locations {
-        background-color: #ffc107;
-    }
-
     .cardRest {
         width: 40rem;
         border: 8px solid  #830b11;
@@ -317,21 +312,6 @@ b {
 
     .cardRest:hover {
         transform: scale(105%);
-    }
-
-    .burgers, .meals, .sides, .drinks {
-        font-family: 'spongebob_font_condensedRg';
-    }
-    
-    li.active {
-        background-color: #830b11!important;
-        color: white!important;
-        border: none;
-        border-radius: 10px 10px 0 0!important;
-    }
-
-    li.last {
-        border-radius: 0 0 10px 10px!important;
     }
 
 /*-----PICTURES-----*/
