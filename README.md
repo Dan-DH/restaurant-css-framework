@@ -4,7 +4,7 @@ Website for a fictional restaurant chain (Spongebob's Krusty Krab) using the CSS
 
 ## Exercise
 
-Create a website for a fictional restaurant chain using the CSS framework Bootstrap. The website must contain at least 5 pages:
+The website must contain at least 5 pages:
 
 - Welcome page.
 - Menu.
