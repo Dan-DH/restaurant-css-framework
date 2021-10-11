@@ -2,6 +2,8 @@
 
 Website for a fictional restaurant chain (Spongebob's Krusty Krab) using the CSS framework Bootstrap.
 
+<p align="center"><img src="https://github.com/dan-dh/restaurant-css-framework/blob/master/assets/krustyKrab.png?raw=true" alt="drawing" width="400"/></p>
+
 ## Exercise
 
 The website must contain at least 5 pages:
