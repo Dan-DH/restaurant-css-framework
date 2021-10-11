@@ -1,6 +1,7 @@
 /* * { border: 1px solid red; } */
 
 /* -----Fonts-----*/
+
 .fontWide {
     font-family: 'spongebob_font_wideregular';
 }
@@ -80,10 +81,19 @@
     background-color: #ffc107;
 }
 
+.sally, .madness {
+
+}
+
 .cardInd {
     width: 75%;
     height: 100%; /*keeps the cards the same height*/
     margin: auto;
+    transition: transform 1s;
+}
+
+.cardInd:hover {
+    transform: scale(110%);
 }
 
 .card-text {
@@ -207,10 +217,6 @@ b {
     margin-left: auto;
 }
 
-.accordion-button::after, .accordion-button-collapsed::after {
-    display: none;
-}
-
 .accordion-body {
     font-family: 'spongebob_font_condensedRg';
 }
@@ -235,7 +241,6 @@ b {
 
 .cardRest {
     width: 20rem;
-    margin: auto;
     border: 4px solid  #830b11;
     border-radius: 10px;
     font-family: 'spongebob_font_condensedRg';
@@ -245,6 +250,29 @@ b {
     transform: scale(150%);
     color: #830b11;
 }
+
+/*-----CONTACT-----*/
+
+.formContainer {
+    background-color: #ffc107;
+}
+
+.contactForm {
+    font-family: 'spongebob_font_condensedRg';
+}
+
+.form-control, .form-select {
+    font-family: Roboto;
+    box-shadow: none!important;
+}
+
+.mailGif {
+    border-bottom: 4px solid #830b11;
+    max-width: 100%;
+}
+
+
+
 
 /*-----DESKTOP VERSION-----*/
 @media screen and (min-width: 800px) {
@@ -257,6 +285,14 @@ b {
     .navDesk {
         display: inherit;
         width: 100%;
+    }
+
+    .navLink {
+        transition: transform 0.5s;
+    }
+
+    .navLink:hover {
+        transform: scale(110%);
     }
 
 /*-----footer-----*/
@@ -294,24 +330,40 @@ b {
         font-size: large;
     }
 
-    .menuMob, .thumbsUp {
-        display: none;
+    .list-group-item {
+        font-family: 'spongebob_font_condensedRg';
     }
 
-    .wText {
-        visibility: hidden;
+   .list-group-item.active {
+       background-color: #830b11;
+       border-radius: 5px 5px 0 0;
+   } 
+
+    .menuMob, .thumbsUp {
+        display: none;
     }
 
 /*-----RESTAURANTS-----*/
 
     .cardRest {
         width: 40rem;
+        max-width: 75%;
         border: 8px solid  #830b11;
         transition: transform 1s;
     }
 
     .cardRest:hover {
         transform: scale(105%);
+    }
+
+    #krab { /*overwrites html justification*/
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+    #bucket { /*overwrites html justification*/
+        margin-left: 5%;
+        margin-right: 20%;
     }
 
 /*-----PICTURES-----*/
@@ -335,4 +387,18 @@ b {
     .pagiMob {
         display: none;
     }
+
+    /*-----CONTACT-----*/
+
+    .contactForm {
+        max-width: 70%;
+    }
+
+    .mailGif {
+        border: 4px solid #830b11;
+        max-width: 90%;
+        transform: scale(110%);
+    }
+
+
 }

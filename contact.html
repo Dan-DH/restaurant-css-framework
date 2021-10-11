@@ -33,6 +33,49 @@
         </div>
     </nav>
 
+    <div class="jumbotron py-4 py-md-5 text-center text-light fontWide kRed">
+        <h1>CONTACT US</h1>
+    </div>
+
+    <div class="container-fluid formContainer m-0">
+        <div class="row">
+            <div class="column col-12 col-md-6 d-flex align-items-center justify-content-center p-0">
+                <img class="mailGif" src="assets/mail.gif" alt="Spongebob opening mail">
+            </div>
+            <div class="column col-12 col-md-6">
+                <form class="contactForm py-5 mx-2">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="input" class="form-control" id="firstName" aria-label="first name field">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="input" class="form-control" id="lastName" aria-label="last name field">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailAddress" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emailAddress" aria-label="email field">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formSubject" class="form-label">Contact reason</label>
+                        <select class="form-select" aria-label="Select contact reason">
+                            <option selected>...</option>
+                            <option value="1">Reservations</option>
+                            <option value="2">Service feedback</option>
+                            <option value="3">Food poisoning complaint</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 form-outline">
+                        <label for="messageForm" class="form-label">Your message</label>
+                        <textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>  
+
     <footer class="container-fluid m-0 p-0">
         <nav class="navbar navbar-expand p-0 m-0">
             <ul class="navbar-nav justify-content-between align-items-center py-2 kRed footBar">
