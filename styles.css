@@ -368,10 +368,6 @@ b {
 
 /*-----PICTURES-----*/
 
-    .pictures {
-        background-image: url("./assets/krustyKrab.png");
-    }
-
     .jumboPic {
         margin: auto;
         max-width: max-content;
