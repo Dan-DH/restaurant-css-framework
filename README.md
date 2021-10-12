@@ -40,6 +40,9 @@ Languages
 - HTML
 - CSS
 
+Framework
+- Bootstrap v5
+
 Tools
 - Visual Studio Code
 
