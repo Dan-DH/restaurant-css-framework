@@ -6,6 +6,8 @@ Website for a fictional restaurant chain (Spongebob's Krusty Krab) using the CSS
 
 ## Exercise
 
+This exercise is part of [BeCode's](https://becode.org/l) Junior Web Developer bootcamp curriculum.
+
 The website must contain at least 5 pages:
 
 - Welcome page.
@@ -15,8 +17,6 @@ The website must contain at least 5 pages:
 - A contact page with a contact form.
 
 [Exercise specifications](https://github.com/becodeorg/BXL-Swartz-5.34/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc)
-
-This exercise is part of [BeCode's](https://becode.org/l) Junior Web Developer bootcamp curriculum.
 
 ### Time frame
 
