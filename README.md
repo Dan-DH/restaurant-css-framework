@@ -22,7 +22,7 @@ The website must contain at least 5 pages:
 
 4 days 
 
-*Project created on October 2021*
+*Project created in October 2021*
 
 ## Website
 
